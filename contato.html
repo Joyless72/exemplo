@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-bs-theme="dark">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contato</title>
+  <link rel="stylesheet" href="css/style.css">   
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.2/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <header>
+        <h1>Contato</h1>
+        <p>Entre em contato conosco!</p>
+    </header>
+    <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Menu</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon" aria-hidden="true"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="navbarNav" role="dialog"
+                aria-labelledby="navbarNavLabel">
+                <div class="offcanvas-header">
+                    <h2 class="offcanvas-title" id="navbarNavLabel">Menu</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pacotes.html">Pacotes de Viagens</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="sobre.html">Sobre Nós</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contato.html">Contato</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="exemplo_form.html">Formulário</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="orcamento.html">Orçamento</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <nav aria-label="breadcrumb" class="bg-dark py-2">
+        <ol class="breadcrumb m-3">
+            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Contato</li>
+        </ol>
+    </nav>
+    <main class="flex-fill container my-4">
+        <form>
+            <label class="form-label" for="genero">Gênero:</label>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="genero" id="genero" value="m" required>
+                <label class="form-check-label" for="radioDefault1">
+                    M
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="genero" id="genero" value="f" required>
+                <label class="form-check-label" for="radioDefault2">
+                    F
+                </label>
+            </div>
+
+            <label for="nome" class="form-label">Nome:</label>
+            <input type="text" class="form-control" id="nome" name="nome" required>
+            <label for="email" class="form-label">Email:</label>
+            <input type="email" class="form-control" id="email" name="email">
+            <label for="senha" class="form-label">Senha:</label>
+            <input type="password" class="form-control" id="senha" name="senha">
+            <label for="mensagem" class="form-label">Mensagem:</label>
+            <textarea class="form-control" id="mensagem" name="mensagem"></textarea>
+
+            <select class="form-select mt-2" aria-label="Seleção da escolaridade" name="escolaridade" id="escolaridade">
+                <option selected>Seleciona a escolaridade</option>
+                <option value="1">Ensino Médio</option>
+                <option value="2">Ensino Superior</option>
+                <option value="3">Pós Graduação</option>
+                <option value="4">Mestrado ou Doutorado</option>
+            </select>
+
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="termos" name="termos">
+                <label class="form-check-label" for="termos">
+                    Aceito os termos e condições
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="recEmail" name="recEmail">
+                <label class="form-check-label" for="recEmail">
+                    Aceito o recebimento de emails
+                </label>
+            </div>
+
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </form>
+    </main>
+    <footer> <!-- rodapé da página -->
+        <div class="footer-container">
+            <div class="footer-copy">
+                <p>&copy; 2026 Jornada Viagens. Todos os direitos reservados</p>
+            </div>
+            <!-- criar uma ancora de link -->
+            <div class="footer-contato" id="contato">
+                <h2>Contato</h2>
+                <address>
+                    <p>Email: contato@jornadaviagens.com.br</p>
+                    <p>Tel/WhatsApp: (21) 91234-1234</p>
+                </address>
+            </div>
+          <nav class="footer-redes" aria-label="Redes Sociais">
+                <a href="https://pt-br.facebook.com/" target="_blank" aria-label="facebook">
+                    <i class="bi bi-facebook"></i>
+                </a>
+                <a href="https://www.instagram.com/" target="_blank" aria-label="instagram">
+                    <i class="bi bi-instagram"></i>
+                </a>
+                <a href="https://x.com/" target="_blank" aria-label="x">
+                    <i class="bi bi-twitter-x"></i>
+                </a>
+            </nav>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

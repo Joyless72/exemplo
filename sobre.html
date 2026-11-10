@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Nós - Jornada Viagens</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.2/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <header>
+        <h1>Jornada Viagens</h1>
+        <p>Explorando o mundo com você!✈️🌍</p>
+        <nav aria-label="Navegação principal" id="navsobre">
+            <ul>
+                <li><a href="#nossahistoria">Nossa História</a></li>
+                <li><a href="#missao">Missão</a></li>
+                <li><a href="#visao">Visão</a></li>
+                <li><a href="#valores">Valores</a></li>
+            </ul>
+        </nav>
+    </header>
+    <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Menu</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon" aria-hidden="true"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="navbarNav" aria-labelledby="navbarNavLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="navbarNavLabel">Menu</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pacotes.html">Pacotes de Viagens</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="sobre.html">Sobre Nós</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contato.html">Contato</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="exemplo_form.html">Formulário</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="orcamento.html">Orçamento</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <nav aria-label="breadcrumb" class="bg-dark py-2">
+        <ol class="breadcrumb m-3">
+            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Sobre Nós</li>
+        </ol>
+    </nav>
+    <main id="topo">
+        <figure class="foto-flutuante"> <!-- passo 1 FLOAT -->
+        <img src="img/lugar3.jpg" alt="dunas numa paisagem paradisíaca">
+        <span class="selo-destaque">Destaque</span>
+        <figcaption>Paisagens como essa fazem o desfrutar da existência valer a pena</figcaption>
+    </figure>
+        <section id="nossahistoria">
+            <h2>Nossa História</h2>
+            <p> Somos uma agência apaixonada por criar viagens inesquecíveis...
+            </p>
+        </section>
+        <section id="missao">
+            <h2>Missão</h2>
+            <p>Proporcionar experiências de viagem únicas e memoráveis para nossos clientes, garantindo qualidade, segurança e satisfação em cada etapa da jornada.</p>
+        </section>
+        <section id="visao">
+            <h2>Visão</h2>
+            <p>Ser reconhecida como a agência de viagens líder no mercado, destacando-se pela excelência no atendimento, inovação e compromisso com a sustentabilidade.</p>
+        </section>
+        <section id="valores">
+            <h2>Valores</h2>
+            <ul>
+                <li>Compromisso com a satisfação do cliente</li>
+                <li>Ética e transparência em todas as operações</li>
+                <li>Inovação e criatividade na criação de pacotes de viagem</li>
+                <li>Respeito ao meio ambiente e à cultura local</li>
+            </ul>
+        </section>
+        <div class="limpa-float"></div> <!-- passo 2 FLOAT -->
+    </main>
+<footer id="contato">
+    <p>&copy; 2024 Jornada Viagens. Todos os direitos reservados.</p>
+    <p></p>
+</footer>
+<a href="#topo" class="botao-topo" aria-label="Voltar ao topo da página">&uarr; Topo</a> <!-- passo &uarr -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+</body>
+</html>
